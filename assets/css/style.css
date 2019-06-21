@@ -16,6 +16,8 @@ body{
     text-align:left;
     border: solid;
     border-color: grey;
+    border-radius:10px;
+    padding-left:25px;
     width:200px;
     background-color:rgb(73, 12, 12);
     margin-top:25px;
@@ -69,6 +71,34 @@ body{
 
 
 }
+
+#hangman{
+    width:200px;
+    height:200px;
+    float: left;
+}
+#rpg{
+    width:200px;
+    height:200px;
+    float:right;
+}
+#trivia{
+    width:200px;
+    height:200px;
+    float:left;
+}
+#rutgers{
+    width:200px;
+    height:200px;
+    float:right;
+}
+#rockpaperscissors{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+
 
 .copyright {
     text-align:center;

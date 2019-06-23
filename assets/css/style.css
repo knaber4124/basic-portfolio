@@ -124,10 +124,8 @@ body{
   
   .grid-item {
   
-    background-color: rgba(255, 255, 255, 0.8);
-  
-    
-  
+    background-color: rgba;
+        
     padding: 20px;
   
     font-size: 30px;
@@ -138,8 +136,23 @@ body{
 
   .bottom-right {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .grid-item p{
+    background-color:teal;
+    float:left;
+    width:33%;
+    z-index:2;
+    text-size-adjust: 25%;
+
+
+  }
+  .grid-item h4{
+      width:33%;
+      color:white;
+      float:left;
   }
 
 

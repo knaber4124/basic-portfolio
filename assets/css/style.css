@@ -5,14 +5,17 @@ body{
 
 
 
-#header{
+##header{
     background-color: grey;
     color: white;
     text-align: right;
 
 }
 
-#name{
+#header #name{
+    position:relative;
+    top:20px;
+    left:15px;
     text-align:left;
     border: solid;
     border-color: grey;
@@ -167,5 +170,19 @@ body{
   }
   
 
+  <div class="contact">
+    align:center;
+  <form action="action_page.php">
 
+    <label for="name">First Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 

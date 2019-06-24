@@ -5,9 +5,9 @@ body{
 
 
 
-##header{
-    background-color: grey;
-    color: white;
+#header{
+    background-color: rgb(202, 188, 188);
+    color: #66FCF1;
     text-align: right;
 
 }
@@ -22,7 +22,8 @@ body{
     border-radius:10px;
     padding-left:25px;
     width:200px;
-    background-color:rgb(73, 12, 12);
+    background-color:#1F3833;
+     color:#66FCF1
     margin-top:25px;
     vertical-align: middle;
 

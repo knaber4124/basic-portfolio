@@ -141,6 +141,9 @@ body{
   }
 
   .grid-item p{
+    position:relative;
+    top:-100px;
+    left:50px;
     background-color:teal;
     float:left;
     width:33%;
@@ -149,11 +152,20 @@ body{
 
 
   }
+
   .grid-item h4{
-      width:33%;
-      color:white;
-      float:left;
+
+    width:33%;
+    float:left;
+
+
   }
+  .grid-item a{
+    color: black;
+    text-decoration:none;
+
+  }
+  
 
 
 

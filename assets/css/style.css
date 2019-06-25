@@ -3,9 +3,20 @@ body{
 
  }
 
+ h1{
+  font-size:30px;
+
+ }
+
+ h2{
+    font-size:25px;
+
+ }
+
 
 
 #header{
+    height:100px;
     background-color: rgb(43, 53, 54);
     color: #66FCF1;
     text-align: right;

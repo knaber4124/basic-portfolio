@@ -161,6 +161,7 @@ body{
     top:-50px;
     left:150px;
     background-color:teal;
+    opacity: 0.65;
     float:left;
     width:33%;
     z-index:2;
@@ -178,7 +179,9 @@ body{
 
   }
   .grid-item a{
+    background-color:teal;
     color: black;
+    
     text-decoration:none;
 
   }

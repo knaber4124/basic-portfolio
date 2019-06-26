@@ -157,8 +157,8 @@ body{
 
   .grid-item p{
     position:relative;
-    top:-100px;
-    left:50px;
+    top:-50px;
+    left:150px;
     background-color:teal;
     float:left;
     width:33%;
@@ -167,6 +167,7 @@ body{
 
 
   }
+  
 
   .grid-item h4{
 

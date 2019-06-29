@@ -2,6 +2,7 @@ body{
     
     background-image: url(../images/code.jpg);
     background-color:black;
+    
  }
 
  h1{
@@ -53,6 +54,7 @@ body{
 
 #content{
     padding: 25px;
+    line-height: 20px;
 
 }
 
@@ -65,6 +67,35 @@ body{
 
 
 
+}
+.index:hover{
+  color:rgb(233, 219, 219);
+  text-shadow: 2px 2px 2px #66FCF1;
+
+
+}
+
+.contact:hover{
+  color:rgb(233, 219, 219));
+  text-shadow: 2px 2px 2px #66FCF1;
+
+}
+.portfolio:hover{
+  color:rgb(233, 219, 219);
+  text-shadow: 2px 2px 2px #66FCF1;
+
+
+}
+
+.index:visited{
+  color:black;
+}
+.contact:visited{
+  color:black;
+
+}
+.portfolio:visited{
+  color:black;
 }
 
 
@@ -161,7 +192,7 @@ body{
     top:-50px;
     left:150px;
     background-color:teal;
-    opacity: 0.65;
+    
     float:left;
     width:33%;
     z-index:2;
